@@ -39,9 +39,4 @@ public class BaseTest {
         driver.quit();
     }
 
-    private void fillField (By locator, String value){
-        driver.findElement(locator).clear();
-        driver.findElement(locator).sendKeys(value);
-    }
-
 }
